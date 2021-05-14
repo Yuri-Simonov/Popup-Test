@@ -354,4 +354,16 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  .popup__close {
+    right: 0px;
+  }
+}
+
 .webp .container{ background: url(../img/background.webp) 0 0/100% 100%; }
